@@ -4,5 +4,6 @@ USE `cars without insurance`;
 
 SELECT `Name`
 FROM dealerships
-INNER JOIN inventory ON dealerships.dealership_id = inventory.dealership_id
-WHERE vehicles.vin = 22; 
+INNER JOIN inventory
+ON dealerships.dealership_id = inventory.dealership_id
+WHERE vin = 11;
